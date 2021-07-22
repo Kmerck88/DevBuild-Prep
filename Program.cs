@@ -20,6 +20,13 @@ namespace DevBuild_prep
     //  int num2 = 10; 
     //  Console.WriteLine(num1 + num2);  
             
+    // alternative Solution 
+            
+      // int sum = 5 + 10;
+       //  Console.WriteLine(sum);  
+
+
+            
          
     // Problem 3. Write a C# Sharp program to print the result of dividing two numbers.
 
