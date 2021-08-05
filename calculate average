@@ -1,0 +1,35 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    
+
+ double num1;
+ double num2;
+ double num3;
+ double num4; 
+
+
+
+ Console.Write("Enter first number - ");
+    num1 = Convert.ToInt32(Console.ReadLine());
+     
+    Console.Write("Enter second number - ");
+    num2 = Convert.ToInt32(Console.ReadLine());
+ 
+    Console.Write("Enter third number - ");
+    num3 = Convert.ToInt32(Console.ReadLine());
+  Console.Write("Enter fourth number - ");
+    num4 = Convert.ToInt32(Console.ReadLine());
+     
+
+   double avarage = (num1 + num2 + num3 + num4) / 4; 
+
+   Console.WriteLine("The average of: {0}, {1}, {2}, {3} is: {4} ",
+  num1, num2, num3, num4, avarage);
+ 
+
+
+
+  }
+}
